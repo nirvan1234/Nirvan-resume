@@ -2,6 +2,7 @@ import {styles} from "../style"
 import React from 'react'
 import { motion } from "framer-motion"
 import { ComputersCanvas } from "./canvas"
+import {EarthCanvas} from "./canvas"
 
 const Hero = () => {
   return (
