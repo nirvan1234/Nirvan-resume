@@ -5,7 +5,7 @@ import { Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf", true); // Enable Draco compression
+  const computer = useGLTF("./desktop_pc/scene.gltf"); // Enable Draco compression
 
   return (
     <mesh>
